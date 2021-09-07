@@ -1,7 +1,15 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 def majuscule(mot):
     # TODO completer la fonction ici
+
+    nouveauMot = ""
+
+    for lettre in mot :
+        nouveauMot += chr(ord(lettre)-32)
+
+    mot = nouveauMot
     return mot
 
 
